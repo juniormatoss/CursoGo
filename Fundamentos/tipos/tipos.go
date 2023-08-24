@@ -18,10 +18,21 @@ func main() {
 	i1 := math.MaxInt64
 	fmt.Println("O valor máximo o int é", i1)
 	fmt.Println("O tipo de i1 é", reflect.TypeOf(12))
+
+
+	var i2 rune = 'a' // representa um mapeamento da tbela Unicode(int32)
+	fmt.Println("O uneé", reflect.TypeOf(i2))
 	fmt.Println(i2)
+
+
 
 	//números reais(float32, float64)
 	var x float32 = 49.99
 	fmt.Println("O tipo de x é", reflect.TypeOf(x))
+
+	//boolean
+	 bo := true
+	fmt.Println("O tipo de bo é", reflect.TypeOf(bo))
+	fmt.Println(!bo)
 
 }
