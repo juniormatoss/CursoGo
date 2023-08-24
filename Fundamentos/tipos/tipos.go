@@ -18,6 +18,10 @@ func main() {
 	i1 := math.MaxInt64
 	fmt.Println("O valor máximo o int é", i1)
 	fmt.Println("O tipo de i1 é", reflect.TypeOf(12))
+	fmt.Println(i2)
 
-	
+	//números reais(float32, float64)
+	var x float32 = 49.99
+	fmt.Println("O tipo de x é", reflect.TypeOf(x))
+
 }
