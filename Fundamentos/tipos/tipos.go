@@ -19,20 +19,36 @@ func main() {
 	fmt.Println("O valor máximo o int é", i1)
 	fmt.Println("O tipo de i1 é", reflect.TypeOf(12))
 
-
-	var i2 rune = 'a' // representa um mapeamento da tbela Unicode(int32)
+	// representa um mapeamento da tbela Unicode(int32)
+	var i2 rune = 'a' 
 	fmt.Println("O uneé", reflect.TypeOf(i2))
 	fmt.Println(i2)
-
-
 
 	//números reais(float32, float64)
 	var x float32 = 49.99
 	fmt.Println("O tipo de x é", reflect.TypeOf(x))
 
 	//boolean
-	 bo := true
+	bo := true
 	fmt.Println("O tipo de bo é", reflect.TypeOf(bo))
 	fmt.Println(!bo)
 
+	//String
+	s1 := "Olá meu nome é júnior"
+	fmt.Println(s1 + "!")
+	fmt.Println("O tamanho da String é", len(s1))
+
+	//String com multiplas linhas
+	s2 := `Olá
+	meu
+	nome é Leo`
+	fmt.Print("O tamanho da string é", len(s2))
+
+	//Char
+
+	char := 'a'
+	fmt.Println("O tipo de cha é", reflect.TypeOf(char))
+	fmt.Println(char)
+
+	
 }
