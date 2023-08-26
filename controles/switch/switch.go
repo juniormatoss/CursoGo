@@ -25,6 +25,7 @@ func notaParaonceito(n float64) string {
 		return "E"
 
 	default:
+		
 		return "Nota inválida"
 	}
 
