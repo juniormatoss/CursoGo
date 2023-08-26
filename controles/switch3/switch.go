@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func tipo(i interface{}) string {
 	switch i.(type) {
@@ -23,4 +26,8 @@ func tipo(i interface{}) string {
 }
 func main() {
 	fmt.Println(tipo(2.3))
+	fmt.Println(tipo(1))
+	fmt.Println(tipo("Opa"))
+	fmt.Println(tipo(func() {}))
+	fmt.Println(tipo(time.Now()))
 }
