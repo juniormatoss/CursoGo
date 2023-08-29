@@ -4,6 +4,8 @@ import "fmt"
 
 func fatorial(n uint) uint {
 	switch {
+
+		
 	case n == 0:
 		return 1
 
@@ -14,7 +16,7 @@ func fatorial(n uint) uint {
 }
 
 func main() {
-	
+
 	resultado := fatorial(5)
 
 	fmt.Println(resultado)
