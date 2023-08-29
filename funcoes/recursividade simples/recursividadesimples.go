@@ -14,8 +14,8 @@ func fatorial(n uint) uint {
 }
 
 func main() {
-	resultado:= fatorial(5)
-
 	
+	resultado := fatorial(5)
+
 	fmt.Println(resultado)
 }
