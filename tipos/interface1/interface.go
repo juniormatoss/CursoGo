@@ -10,14 +10,12 @@ type pessoa struct {
 	nome      string
 	sobrenome string
 }
-
 type produto struct {
 	nome  string
 	preco float64
 }
 
 // interfaces são implementadas implicitamente
-
 func (p pessoa) toString() string {
 	return p.nome + " " + p.sobrenome
 }
@@ -31,14 +29,13 @@ func imprimir(x imprimivel) {
 }
 
 func main() {
-	var coisa imprimivel = pessoa{"Roberto", "Silva"}
+	var coisa imprimivel = pessoa{" Roberto", "Silva"}
 	fmt.Println(coisa.toString())
 	imprimir(coisa)
 
 	coisa = produto{"Calça Jeans", 79.90}
 	fmt.Println(coisa.toString())
-	imprimir(coisa)
 
-	p2 := produto{"Calça jeans", 179.90}
+	p2 := produto{"Calça Jeans", 179.90}
 	imprimir(p2)
 }

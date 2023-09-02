@@ -22,6 +22,8 @@ func main() {
 
 	_, err := fatorial(-4)
 	if err != nil {
+
+		
 		fmt.Println(err)
 	}
 }
