@@ -20,6 +20,8 @@ func (p pedido) valoTotal() float64 {
 	return total
 }
 
+
+
 func main() {
 	pedido := pedido{
 		userID: 1,
