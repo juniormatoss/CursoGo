@@ -22,7 +22,9 @@ func (p pedido) valoTotal() float64 {
 
 
 
-func main() {
+func main() {   
+
+	
 	pedido := pedido{
 		userID: 1,
 		itens: []item{
