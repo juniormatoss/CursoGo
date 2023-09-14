@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 type item struct {
+	
 	produtoID int
 	qtde      int
 	preco     float64
