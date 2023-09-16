@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+
 	"time"
 )
 
@@ -13,7 +15,7 @@ func rotina(c chan int) {
 }
 
 func main() {
-	c := make(chan int) // canal sem buffer
+	c := make(chan int)
 
 	go rotina(c)
 
