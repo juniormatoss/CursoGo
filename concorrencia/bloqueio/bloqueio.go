@@ -6,6 +6,8 @@ import (
 )
 
 func rotina(c chan int) {
+
+	
 	time.Sleep(time.Second)
 	c <- 1 // operação bloqueante
 	fmt.Println("Só depois que foi lido")
