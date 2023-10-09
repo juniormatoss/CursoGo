@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 type item struct {
-	
 	produtoID int
-	qtde      int
-	preco     float64
+
+	qtde  int
+	preco float64
 }
 type pedido struct {
 	userID int
@@ -21,11 +21,8 @@ func (p pedido) valoTotal() float64 {
 	return total
 }
 
+func main() {
 
-
-func main() {   
-
-	
 	pedido := pedido{
 		userID: 1,
 		itens: []item{
