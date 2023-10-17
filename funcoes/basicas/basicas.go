@@ -27,6 +27,8 @@ func main() {
 	f2("Param1", "Param2")
 
 	r3, r4 := f3(), f4("Param1", "Param2")
+
+	
 	fmt.Println(r3)
 	fmt.Println(r4)
 
